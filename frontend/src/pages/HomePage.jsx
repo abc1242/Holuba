@@ -7,6 +7,8 @@ export function HomePage() {
   return (
     <div className="background">
       <HomeComponent />
+      <HomeComponent />
+      <HomeComponent />
     </div>
   );
 }
