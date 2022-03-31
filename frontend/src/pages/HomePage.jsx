@@ -3,7 +3,7 @@ import React from "react";
 import HomeComponent from "components/Home/HomeComponent";
 import "../components/Home/Home.css";
 
-export function HomePage() {
+const HomePage = () => {
   return (
     <div className="background">
       <HomeComponent />
@@ -11,4 +11,6 @@ export function HomePage() {
       <HomeComponent />
     </div>
   );
-}
+};
+
+export default HomePage;
